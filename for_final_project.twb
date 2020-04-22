@@ -1,0 +1,1296 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20194.19.1010.1202                               -->
+<workbook original-version='18.1' source-build='2019.4.0 (20194.19.1010.1202)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <MapboxVectorStylesAndLayers />
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <SpatialFileLayer />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Boundaries - Community Areas (current)' inline='true' name='federated.0okqeem07v8upz1eooqco0540die' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Boundaries - Community Areas (current)' name='ogrdirect.03q3qn51jfrikh15o8png0p5tm2o'>
+            <connection class='ogrdirect' directory='C:/Users/saket/Downloads' filename='Boundaries - Community Areas (current).geojson' ogr-grid-shift-folder='C:\Program Files\Tableau\Tableau 2019.4\local\proj4' password='' server='' tablename='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='ogrdirect.03q3qn51jfrikh15o8png0p5tm2o' name='Boundaries - Community Areas (current).geojson' table='[Boundaries - Community Areas (current).geojson]' type='table'>
+          <columns>
+            <column datatype='string' name='community' ordinal='0' />
+            <column datatype='string' name='area' ordinal='1' />
+            <column datatype='string' name='shape_area' ordinal='2' />
+            <column datatype='string' name='perimeter' ordinal='3' />
+            <column datatype='string' name='area_num_1' ordinal='4' />
+            <column datatype='string' name='area_numbe' ordinal='5' />
+            <column datatype='string' name='comarea_id' ordinal='6' />
+            <column datatype='string' name='comarea' ordinal='7' />
+            <column datatype='string' name='shape_len' ordinal='8' />
+            <column datatype='spatial' name='Geometry' ordinal='9' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>community</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[community]</local-name>
+            <parent-name>[Boundaries - Community Areas (current).geojson]</parent-name>
+            <remote-alias>community</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>area</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[area]</local-name>
+            <parent-name>[Boundaries - Community Areas (current).geojson]</parent-name>
+            <remote-alias>area</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>shape_area</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[shape_area]</local-name>
+            <parent-name>[Boundaries - Community Areas (current).geojson]</parent-name>
+            <remote-alias>shape_area</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>perimeter</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[perimeter]</local-name>
+            <parent-name>[Boundaries - Community Areas (current).geojson]</parent-name>
+            <remote-alias>perimeter</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>area_num_1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[area_num_1]</local-name>
+            <parent-name>[Boundaries - Community Areas (current).geojson]</parent-name>
+            <remote-alias>area_num_1</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>area_numbe</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[area_numbe]</local-name>
+            <parent-name>[Boundaries - Community Areas (current).geojson]</parent-name>
+            <remote-alias>area_numbe</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>comarea_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[comarea_id]</local-name>
+            <parent-name>[Boundaries - Community Areas (current).geojson]</parent-name>
+            <remote-alias>comarea_id</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>comarea</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[comarea]</local-name>
+            <parent-name>[Boundaries - Community Areas (current).geojson]</parent-name>
+            <remote-alias>comarea</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>shape_len</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[shape_len]</local-name>
+            <parent-name>[Boundaries - Community Areas (current).geojson]</parent-name>
+            <remote-alias>shape_len</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Geometry</remote-name>
+            <remote-type>8</remote-type>
+            <local-name>[Geometry]</local-name>
+            <parent-name>[Boundaries - Community Areas (current).geojson]</parent-name>
+            <remote-alias>Geometry</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>spatial</local-type>
+            <aggregation>Collect</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Area' datatype='string' name='[area]' role='dimension' type='nominal' />
+      <column caption='Area Num 1' datatype='string' name='[area_num_1]' role='dimension' type='nominal' />
+      <column caption='Area Numbe' datatype='string' name='[area_numbe]' role='dimension' type='nominal' />
+      <column caption='Comarea' datatype='string' name='[comarea]' role='dimension' type='nominal' />
+      <column caption='Comarea Id' datatype='string' name='[comarea_id]' role='dimension' type='nominal' />
+      <column caption='Community' datatype='string' name='[community]' role='dimension' type='nominal' />
+      <column caption='Perimeter' datatype='string' name='[perimeter]' role='dimension' type='nominal' />
+      <column caption='Shape Area' datatype='string' name='[shape_area]' role='dimension' type='nominal' />
+      <column caption='Shape Len' datatype='string' name='[shape_len]' role='dimension' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.625' measure-ordering='alphabetic' measure-percentage='0.375' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='crime_data.csv+ (Multiple Connections)' inline='true' name='federated.0myv9wd1gj8grm14wu9nh09soye2' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='crime_data' name='textscan.029ho930vs6qvi13jz5od1gv1lqr'>
+            <connection class='textscan' directory='C:/Users/saket/Downloads/for computation and visualization' filename='crime_data.csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='Boundaries - Community Areas (current)' name='ogrdirect.1gvf2ro1jxftlp16gp3aa1kce4hx'>
+            <connection class='ogrdirect' directory='C:/Users/saket/Downloads' filename='Boundaries - Community Areas (current).geojson' ogr-grid-shift-folder='C:\Program Files\Tableau\Tableau 2019.4\local\proj4' password='' server='' tablename='' />
+          </named-connection>
+        </named-connections>
+        <relation join='left' type='join'>
+          <clause type='join'>
+            <expression op='='>
+              <expression op='[crime_data.csv].[Community.Areas]' />
+              <expression op='INT([Boundaries - Community Areas (current).geojson].[area_numbe])' />
+            </expression>
+          </clause>
+          <relation connection='textscan.029ho930vs6qvi13jz5od1gv1lqr' name='crime_data.csv' table='[crime_data#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='CASE.' ordinal='0' />
+              <column datatype='datetime' name='DATE..OF.OCCURRENCE' ordinal='1' />
+              <column datatype='string' name='BLOCK' ordinal='2' />
+              <column datatype='string' name='PRIMARY.DESCRIPTION' ordinal='3' />
+              <column datatype='string' name='SECONDARY.DESCRIPTION' ordinal='4' />
+              <column datatype='string' name='LOCATION.DESCRIPTION' ordinal='5' />
+              <column datatype='string' name='ARREST' ordinal='6' />
+              <column datatype='string' name='DOMESTIC' ordinal='7' />
+              <column datatype='integer' name='WARD' ordinal='8' />
+              <column datatype='real' name='LATITUDE' ordinal='9' />
+              <column datatype='real' name='LONGITUDE' ordinal='10' />
+              <column datatype='integer' name='Community.Areas' ordinal='11' />
+            </columns>
+          </relation>
+          <relation connection='ogrdirect.1gvf2ro1jxftlp16gp3aa1kce4hx' name='Boundaries - Community Areas (current).geojson' table='[Boundaries - Community Areas (current).geojson]' type='table'>
+            <columns>
+              <column datatype='string' name='community' ordinal='0' />
+              <column datatype='string' name='area' ordinal='1' />
+              <column datatype='string' name='shape_area' ordinal='2' />
+              <column datatype='string' name='perimeter' ordinal='3' />
+              <column datatype='string' name='area_num_1' ordinal='4' />
+              <column datatype='string' name='area_numbe' ordinal='5' />
+              <column datatype='string' name='comarea_id' ordinal='6' />
+              <column datatype='string' name='comarea' ordinal='7' />
+              <column datatype='string' name='shape_len' ordinal='8' />
+              <column datatype='spatial' name='Geometry' ordinal='9' />
+            </columns>
+          </relation>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[crime_data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CASE.</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CASE.]</local-name>
+            <parent-name>[crime_data.csv]</parent-name>
+            <remote-alias>CASE.</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DATE..OF.OCCURRENCE</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[DATE..OF.OCCURRENCE]</local-name>
+            <parent-name>[crime_data.csv]</parent-name>
+            <remote-alias>DATE..OF.OCCURRENCE</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BLOCK</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[BLOCK]</local-name>
+            <parent-name>[crime_data.csv]</parent-name>
+            <remote-alias>BLOCK</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PRIMARY.DESCRIPTION</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PRIMARY.DESCRIPTION]</local-name>
+            <parent-name>[crime_data.csv]</parent-name>
+            <remote-alias>PRIMARY.DESCRIPTION</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SECONDARY.DESCRIPTION</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SECONDARY.DESCRIPTION]</local-name>
+            <parent-name>[crime_data.csv]</parent-name>
+            <remote-alias>SECONDARY.DESCRIPTION</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LOCATION.DESCRIPTION</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LOCATION.DESCRIPTION]</local-name>
+            <parent-name>[crime_data.csv]</parent-name>
+            <remote-alias>LOCATION.DESCRIPTION</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ARREST</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ARREST]</local-name>
+            <parent-name>[crime_data.csv]</parent-name>
+            <remote-alias>ARREST</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DOMESTIC</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[DOMESTIC]</local-name>
+            <parent-name>[crime_data.csv]</parent-name>
+            <remote-alias>DOMESTIC</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WARD</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[WARD]</local-name>
+            <parent-name>[crime_data.csv]</parent-name>
+            <remote-alias>WARD</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LATITUDE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[LATITUDE]</local-name>
+            <parent-name>[crime_data.csv]</parent-name>
+            <remote-alias>LATITUDE</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LONGITUDE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[LONGITUDE]</local-name>
+            <parent-name>[crime_data.csv]</parent-name>
+            <remote-alias>LONGITUDE</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Community.Areas</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Community.Areas]</local-name>
+            <parent-name>[crime_data.csv]</parent-name>
+            <remote-alias>Community.Areas</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>community</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[community]</local-name>
+            <parent-name>[Boundaries - Community Areas (current).geojson]</parent-name>
+            <remote-alias>community</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>area</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[area]</local-name>
+            <parent-name>[Boundaries - Community Areas (current).geojson]</parent-name>
+            <remote-alias>area</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>shape_area</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[shape_area]</local-name>
+            <parent-name>[Boundaries - Community Areas (current).geojson]</parent-name>
+            <remote-alias>shape_area</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>perimeter</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[perimeter]</local-name>
+            <parent-name>[Boundaries - Community Areas (current).geojson]</parent-name>
+            <remote-alias>perimeter</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>area_num_1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[area_num_1]</local-name>
+            <parent-name>[Boundaries - Community Areas (current).geojson]</parent-name>
+            <remote-alias>area_num_1</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>area_numbe</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[area_numbe]</local-name>
+            <parent-name>[Boundaries - Community Areas (current).geojson]</parent-name>
+            <remote-alias>area_numbe</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>comarea_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[comarea_id]</local-name>
+            <parent-name>[Boundaries - Community Areas (current).geojson]</parent-name>
+            <remote-alias>comarea_id</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>comarea</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[comarea]</local-name>
+            <parent-name>[Boundaries - Community Areas (current).geojson]</parent-name>
+            <remote-alias>comarea</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>shape_len</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[shape_len]</local-name>
+            <parent-name>[Boundaries - Community Areas (current).geojson]</parent-name>
+            <remote-alias>shape_len</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Geometry</remote-name>
+            <remote-type>8</remote-type>
+            <local-name>[Geometry]</local-name>
+            <parent-name>[Boundaries - Community Areas (current).geojson]</parent-name>
+            <remote-alias>Geometry</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>spatial</local-type>
+            <aggregation>Collect</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='CountD' caption='Arrest' datatype='string' default-role='measure' default-type='quantitative' name='[ARREST]' role='dimension' type='nominal' />
+      <column caption='Block' datatype='string' name='[BLOCK]' role='dimension' type='nominal' />
+      <column aggregation='CountD' caption='Case.' datatype='string' default-role='measure' default-type='quantitative' name='[CASE.]' role='dimension' type='nominal' />
+      <column caption='Date..Of.Occurrence' datatype='datetime' name='[DATE..OF.OCCURRENCE]' role='dimension' type='ordinal' />
+      <column caption='Domestic' datatype='string' name='[DOMESTIC]' role='dimension' type='nominal' />
+      <column aggregation='Avg' caption='Latitude' datatype='real' name='[LATITUDE]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column caption='Location.Description' datatype='string' name='[LOCATION.DESCRIPTION]' role='dimension' type='nominal' />
+      <column aggregation='Avg' caption='Longitude' datatype='real' name='[LONGITUDE]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Primary.Description' datatype='string' name='[PRIMARY.DESCRIPTION]' role='dimension' type='nominal' />
+      <column caption='Secondary.Description' datatype='string' name='[SECONDARY.DESCRIPTION]' role='dimension' type='nominal' />
+      <column caption='Ward' datatype='integer' name='[WARD]' role='measure' type='quantitative' />
+      <column caption='Area' datatype='string' name='[area]' role='dimension' type='nominal' />
+      <column caption='Area Num 1' datatype='string' datatype-customized='true' name='[area_num_1]' role='dimension' type='nominal' />
+      <column caption='Area Numbe' datatype='integer' datatype-customized='true' name='[area_numbe]' role='dimension' type='ordinal' />
+      <column caption='Comarea' datatype='string' name='[comarea]' role='dimension' semantic-role='[AreaCode].[Name]' type='nominal' />
+      <column caption='Comarea Id' datatype='string' name='[comarea_id]' role='dimension' type='nominal' />
+      <column caption='Community' datatype='string' name='[community]' role='dimension' type='nominal' />
+      <column caption='Perimeter' datatype='string' name='[perimeter]' role='dimension' type='nominal' />
+      <column caption='Shape Area' datatype='string' name='[shape_area]' role='dimension' type='nominal' />
+      <column caption='Shape Len' datatype='string' name='[shape_len]' role='dimension' type='nominal' />
+      <column-instance column='[CASE.]' derivation='CountD' name='[ctd:CASE.:ok]' pivot='key' type='ordinal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.844551' measure-ordering='alphabetic' measure-percentage='0.155449' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[ctd:CASE.:ok]' palette='blue_10_0' type='palette'>
+            <map to='#2a5783'>
+              <bucket>14393</bucket>
+            </map>
+            <map to='#2b5884'>
+              <bucket>12311</bucket>
+            </map>
+            <map to='#2d5a86'>
+              <bucket>10434</bucket>
+            </map>
+            <map to='#2f5c88'>
+              <bucket>9161</bucket>
+            </map>
+            <map to='#305d8a'>
+              <bucket>8865</bucket>
+            </map>
+            <map to='#325f8c'>
+              <bucket>8458</bucket>
+            </map>
+            <map to='#34618d'>
+              <bucket>8111</bucket>
+            </map>
+            <map to='#35628f'>
+              <bucket>7733</bucket>
+            </map>
+            <map to='#376491'>
+              <bucket>7261</bucket>
+            </map>
+            <map to='#386693'>
+              <bucket>6667</bucket>
+            </map>
+            <map to='#3a6794'>
+              <bucket>6564</bucket>
+            </map>
+            <map to='#3b6996'>
+              <bucket>6547</bucket>
+            </map>
+            <map to='#3d6a98'>
+              <bucket>6235</bucket>
+            </map>
+            <map to='#3e6c99'>
+              <bucket>6073</bucket>
+            </map>
+            <map to='#406d9b'>
+              <bucket>5938</bucket>
+            </map>
+            <map to='#416f9d'>
+              <bucket>5851</bucket>
+            </map>
+            <map to='#42719f'>
+              <bucket>5473</bucket>
+            </map>
+            <map to='#4472a0'>
+              <bucket>4827</bucket>
+            </map>
+            <map to='#4574a2'>
+              <bucket>4779</bucket>
+            </map>
+            <map to='#4676a4'>
+              <bucket>4750</bucket>
+            </map>
+            <map to='#4777a5'>
+              <bucket>4596</bucket>
+            </map>
+            <map to='#4979a7'>
+              <bucket>4372</bucket>
+            </map>
+            <map to='#4a7ba9'>
+              <bucket>4263</bucket>
+            </map>
+            <map to='#4b7caa'>
+              <bucket>3902</bucket>
+            </map>
+            <map to='#4d7eac'>
+              <bucket>3712</bucket>
+            </map>
+            <map to='#4f80ad'>
+              <bucket>3704</bucket>
+            </map>
+            <map to='#5081af'>
+              <bucket>3699</bucket>
+            </map>
+            <map to='#5283b0'>
+              <bucket>3567</bucket>
+            </map>
+            <map to='#5485b2'>
+              <bucket>3391</bucket>
+            </map>
+            <map to='#5586b3'>
+              <bucket>3365</bucket>
+            </map>
+            <map to='#5788b4'>
+              <bucket>3133</bucket>
+            </map>
+            <map to='#598ab6'>
+              <bucket>3058</bucket>
+            </map>
+            <map to='#5b8cb7'>
+              <bucket>2961</bucket>
+            </map>
+            <map to='#5d8eb9'>
+              <bucket>2687</bucket>
+            </map>
+            <map to='#5e8fba'>
+              <bucket>2542</bucket>
+            </map>
+            <map to='#6091bc'>
+              <bucket>2517</bucket>
+            </map>
+            <map to='#6293bd'>
+              <bucket>2283</bucket>
+            </map>
+            <map to='#6495be'>
+              <bucket>2260</bucket>
+            </map>
+            <map to='#6697c0'>
+              <bucket>2246</bucket>
+            </map>
+            <map to='#6798c1'>
+              <bucket>2218</bucket>
+            </map>
+            <map to='#699ac3'>
+              <bucket>2187</bucket>
+            </map>
+            <map to='#6b9cc4'>
+              <bucket>2120</bucket>
+            </map>
+            <map to='#6d9ec6'>
+              <bucket>2070</bucket>
+            </map>
+            <map to='#6fa0c7'>
+              <bucket>1879</bucket>
+            </map>
+            <map to='#71a2c8'>
+              <bucket>1874</bucket>
+            </map>
+            <map to='#72a3ca'>
+              <bucket>1838</bucket>
+            </map>
+            <map to='#74a5cb'>
+              <bucket>1828</bucket>
+            </map>
+            <map to='#76a7cd'>
+              <bucket>1809</bucket>
+            </map>
+            <map to='#78a9ce'>
+              <bucket>1783</bucket>
+            </map>
+            <map to='#7aaad0'>
+              <bucket>1590</bucket>
+            </map>
+            <map to='#7bacd1'>
+              <bucket>1563</bucket>
+            </map>
+            <map to='#7daed2'>
+              <bucket>1437</bucket>
+            </map>
+            <map to='#7fafd4'>
+              <bucket>1418</bucket>
+            </map>
+            <map to='#81b1d5'>
+              <bucket>1414</bucket>
+            </map>
+            <map to='#83b3d7'>
+              <bucket>1348</bucket>
+            </map>
+            <map to='#85b5d8'>
+              <bucket>1342</bucket>
+            </map>
+            <map to='#87b7d9'>
+              <bucket>1226</bucket>
+            </map>
+            <map to='#89b9db'>
+              <bucket>1213</bucket>
+            </map>
+            <map to='#8cbadc'>
+              <bucket>1139</bucket>
+            </map>
+            <map to='#8ebcdd'>
+              <bucket>1121</bucket>
+            </map>
+            <map to='#90bede'>
+              <bucket>1097</bucket>
+            </map>
+            <map to='#92c0e0'>
+              <bucket>1023</bucket>
+            </map>
+            <map to='#94c2e1'>
+              <bucket>993</bucket>
+            </map>
+            <map to='#97c4e2'>
+              <bucket>932</bucket>
+            </map>
+            <map to='#99c6e3'>
+              <bucket>915</bucket>
+            </map>
+            <map to='#9bc8e4'>
+              <bucket>890</bucket>
+            </map>
+            <map to='#9ecae6'>
+              <bucket>876</bucket>
+            </map>
+            <map to='#a0cbe7'>
+              <bucket>855</bucket>
+            </map>
+            <map to='#a2cde8'>
+              <bucket>819</bucket>
+            </map>
+            <map to='#a5cfe9'>
+              <bucket>801</bucket>
+            </map>
+            <map to='#a7d1ea'>
+              <bucket>752</bucket>
+            </map>
+            <map to='#aad2eb'>
+              <bucket>643</bucket>
+            </map>
+            <map to='#acd4ec'>
+              <bucket>559</bucket>
+            </map>
+            <map to='#afd6ed'>
+              <bucket>490</bucket>
+            </map>
+            <map to='#b1d7ee'>
+              <bucket>476</bucket>
+            </map>
+            <map to='#b4d9ef'>
+              <bucket>416</bucket>
+            </map>
+            <map to='#b6dbf0'>
+              <bucket>411</bucket>
+            </map>
+            <map to='#b9ddf1'>
+              <bucket>229</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Crime by Community Area</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='crime_data.csv+ (Multiple Connections)' name='federated.0myv9wd1gj8grm14wu9nh09soye2' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0myv9wd1gj8grm14wu9nh09soye2'>
+            <column aggregation='CountD' caption='Arrest' datatype='string' default-role='measure' default-type='quantitative' name='[ARREST]' role='dimension' type='nominal' />
+            <column aggregation='CountD' caption='Case.' datatype='string' default-role='measure' default-type='quantitative' name='[CASE.]' role='dimension' type='nominal' />
+            <column datatype='spatial' name='[Geometry]' role='measure' type='nominal' />
+            <column caption='Area Numbe' datatype='integer' datatype-customized='true' name='[area_numbe]' role='dimension' type='ordinal' />
+            <column-instance column='[Geometry]' derivation='Collect' name='[clct:Geometry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[ARREST]' derivation='Count' name='[cnt:ARREST:ok]' pivot='key' type='ordinal' />
+            <column caption='Community' datatype='string' name='[community]' role='dimension' type='nominal' />
+            <column-instance column='[CASE.]' derivation='CountD' name='[ctd:CASE.:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[CASE.]' derivation='CountD' name='[ctd:CASE.:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[area_numbe]' derivation='None' name='[none:area_numbe:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[community]' derivation='None' name='[none:community:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0myv9wd1gj8grm14wu9nh09soye2].[ctd:CASE.:qk]' included-values='all' />
+          <slices>
+            <column>[federated.0myv9wd1gj8grm14wu9nh09soye2].[ctd:CASE.:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0myv9wd1gj8grm14wu9nh09soye2].[Longitude (generated)]' field-type='quantitative' max='-9730047.7161005978' min='-9834509.0310814846' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0myv9wd1gj8grm14wu9nh09soye2].[Latitude (generated)]' field-type='quantitative' max='5193991.989938912' min='5101901.0938373376' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='admin-0-boundaries' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-bg' value='false' />
+            <format attr='enabled' id='admin-0-boundaries-dispute' value='false' />
+            <format attr='enabled' id='admin-0-label-1st-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-2nd-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-3rd-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-4th-tier' value='false' />
+            <format attr='enabled' id='admin-0-label-5th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-1st-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-2nd-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-3rd-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-4th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-5th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-6th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-7th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-8th-tier' value='false' />
+            <format attr='enabled' id='admin-1-label-9th-tier' value='false' />
+            <format attr='enabled' id='aeroway-polygon' value='false' />
+            <format attr='enabled' id='aeroway-runway' value='false' />
+            <format attr='enabled' id='aeroway-taxiway' value='false' />
+            <format attr='enabled' id='background' value='false' />
+            <format attr='enabled' id='barrier_line-land-line' value='false' />
+            <format attr='enabled' id='barrier_line-land-polygon' value='false' />
+            <format attr='enabled' id='built-up-area' value='false' />
+            <format attr='enabled' id='industrial' value='false' />
+            <format attr='enabled' id='landcover_crop' value='false' />
+            <format attr='enabled' id='landcover_grass' value='false' />
+            <format attr='enabled' id='landcover_scrub' value='false' />
+            <format attr='enabled' id='landcover_wood' value='false' />
+            <format attr='enabled' id='national_park' value='false' />
+            <format attr='enabled' id='national_park-stroke' value='false' />
+            <format attr='enabled' id='parks' value='false' />
+            <format attr='enabled' id='parks-stroke' value='false' />
+            <format attr='enabled' id='pitch' value='false' />
+            <format attr='enabled' id='us-admin-1-label-abbr-1st-tier' value='false' />
+            <format attr='enabled' id='us-admin-1-label-abbr-2nd-tier' value='false' />
+            <format attr='enabled' id='us-admin-1-label-abbr-3rd-tier' value='false' />
+            <format attr='enabled' id='water' value='false' />
+            <format attr='enabled' id='waterway-river-canal' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0myv9wd1gj8grm14wu9nh09soye2].[ctd:CASE.:ok]' />
+              <text column='[federated.0myv9wd1gj8grm14wu9nh09soye2].[none:area_numbe:ok]' />
+              <text column='[federated.0myv9wd1gj8grm14wu9nh09soye2].[none:community:nk]' />
+              <text column='[federated.0myv9wd1gj8grm14wu9nh09soye2].[cnt:ARREST:ok]' />
+              <lod column='[federated.0myv9wd1gj8grm14wu9nh09soye2].[clct:Geometry:nk]' />
+              <geometry column='[federated.0myv9wd1gj8grm14wu9nh09soye2].[clct:Geometry:nk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.0myv9wd1gj8grm14wu9nh09soye2].[none:area_numbe:ok]</run>
+                <run>&gt;&#10;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0myv9wd1gj8grm14wu9nh09soye2].[Latitude (generated)]</rows>
+        <cols>[federated.0myv9wd1gj8grm14wu9nh09soye2].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{85AE19C2-52F3-429E-9A51-DD6C8532B47F}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='2' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' param='horz' type='layout-flow' w='98400' x='800' y='1000'>
+              <zone h='98000' id='3' type='layout-basic' w='98400' x='800' y='1000'>
+                <zone h='98000' id='1' name='Sheet 1' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{E7E986CB-D2EA-4AD2-A65F-D1EA8B79A331}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' source-height='75'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0myv9wd1gj8grm14wu9nh09soye2].[ctd:CASE.:qk]' show-domain='false' show-null-ctrls='false' type='filter' values='relevant' />
+            <card param='[federated.0myv9wd1gj8grm14wu9nh09soye2].[none:community:nk]' type='highlighter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0myv9wd1gj8grm14wu9nh09soye2].[clct:Geometry:nk]</field>
+            <field>[federated.0myv9wd1gj8grm14wu9nh09soye2].[none:PRIMARY.DESCRIPTION:nk]</field>
+            <field>[federated.0myv9wd1gj8grm14wu9nh09soye2].[none:area_numbe:ok]</field>
+            <field>[federated.0myv9wd1gj8grm14wu9nh09soye2].[none:comarea:nk]</field>
+            <field>[federated.0myv9wd1gj8grm14wu9nh09soye2].[none:community:nk]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{4991706D-144B-49B0-97F9-DE397A915B81}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='1' />
+      <simple-id uuid='{FCBABF52-92B8-4C92-AA90-89E898EED6CF}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
